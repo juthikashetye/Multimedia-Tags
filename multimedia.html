@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Audio & Video tags</title>
+</head>
+<body>
+
+	<audio controls>
+		<source src="media/electronica.mp3" type="audio/mpeg">
+		<source src="media/electronica.wav" type="audio/wav">
+		<p>This audio format is not supported by your browser <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/buffering_seeking_time_ranges"></a></p>
+	</audio>
+
+	<!-- <audio src="bark.mp3" controls autoplay></audio> -->
+
+	<video src="media/flyingbird.mp4" controls width="480" height="270">
+		<track kind="captions" 
+		src="media/palawan.vtt"
+		srclang="en"
+		label="English"
+		default>
+	</video>
+
+</body>
+</html>
